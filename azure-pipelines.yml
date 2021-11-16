@@ -22,6 +22,6 @@ steps:
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/aishaikram/StdLAPipeline/main/ArmStdLogicApp/template.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/aishaikram/StdLAPipeline/main/ArmStdLogicApp/parameters.json'
-    overrideParameters: '-name Arm-Arm-AIStdLogApp -hostingPlanName ASP-ArmAIStdLogApp -storageAccountName aistdlogappstorage'
+    overrideParameters: '-name Arm-AIStdLogApp -hostingPlanName ASP-ArmAIStdLogApp -storageAccountName aistdlogappstorage'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployStdLAPipelineTemplate'
