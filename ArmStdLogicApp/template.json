@@ -6,7 +6,7 @@
             "type": "string"
         },
         "name": {
-            "type": "string"
+            "type": "string"           
         },
         "location": {
             "type": "string"
@@ -89,7 +89,7 @@
                         },
                         {
                             "name": "AzureFunctionsJobHost__extensionBundle__version",
-                            "value": "[1.*, 2.0.0)"
+                            "value": "[2.*, 3.0.0)"
                         },
                         {
                             "name": "APP_KIND",
